@@ -9,7 +9,7 @@ load_dotenv()
 
 class PersonalStatementTutor:
     def __init__(self):
-        self.model = "gpt-4"
+        self.model = "gpt-4.1"
         self.system_prompt = """You are a helpful university personal statement tutor. Your role is to:
 1. Provide specific, actionable feedback on personal statements
 2. Help students structure their statements effectively
